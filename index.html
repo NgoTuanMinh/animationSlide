@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="wrap__slide">
+            <ul>
+                <li class="wrap__slide-item slide-active" style="background-image: url(images/1.jpg);"></li>
+                <li class="wrap__slide-item" style="background-image: url(images/2.jpg);"></li>
+                <li class="wrap__slide-item" style="background-image: url(images/3.jpg);"></li>
+                <li class="wrap__slide-item" style="background-image: url(images/4.jpg);"></li>
+                <li class="wrap__slide-item" style="background-image: url(images/5.jpg);"></li>
+                <li class="wrap__slide-item" style="background-image: url(images/6.jpg);"></li>
+                <li class="wrap__slide-item" style="background-image: url(images/7.jpg);"></li>
+            </ul>
+        </div>
+
+        <div class="wrap__btn">
+            <button class="wrap__btn-left"><i class="fas fa-caret-left"></i></button> 
+            <button class="wrap__btn-right"><i class="fas fa-caret-right"></i></button>
+        </div>
+
+        <div class="wrap__selection">
+            <select name="type" class="type_of_animation">
+                <option value="press-away">Press away</option>
+                <option value="soft-scale">Soft scale</option>
+                <option value="swipe" disabled ="disabled">Swipe</option>
+                <option value="fortune-wheel">Fortune Wheel</option>
+                <option value="4" disabled ="disabled">4</option>
+            </select>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
